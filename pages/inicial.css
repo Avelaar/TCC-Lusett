@@ -37,7 +37,7 @@ body { margin: 0px; }
 }
 
 .lusett {
-    font-size: 3.5em;
+    font-size: 4em;
     font-family: NotoSerif-Regular;
     text-shadow: 0.1em 0.1em 0.05em #1282A2;
 }
@@ -58,7 +58,6 @@ body { margin: 0px; }
 .cabecalho img {
     max-width: 2em;
     width: auto;
-    background-color: white;
 }
 
 .icone-lupa {
@@ -75,11 +74,9 @@ body { margin: 0px; }
     flex-direction: row;
     text-align: center;
 }
-
-.icone-menu {
-    color: white;
+.icone-menu img {
+    min-width: 2em;
 }
-
 .imagem {
     text-align: center;
     color: white;
