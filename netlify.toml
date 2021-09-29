@@ -2,3 +2,4 @@
   from = "/*"
   to = "/organização.html"
   status = 200
+  command = "npm run build"
