@@ -1,0 +1,34 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.etapas {
+    display: flex;
+    flex-direction: row;
+}
+
+.Enviar-novidades {
+    display: flex;
+    flex-direction: row;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.salvar-informações {
+    display: flex;
+    flex-direction: row;
+}
+
+.area-detalhes {
+    display: flex;
+    flex-direction: row;
+}
+
+.Subtotal, .Frete, .Desconto, .Total {
+    display: flex;
+    flex-direction: row;
+}
