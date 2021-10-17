@@ -206,9 +206,11 @@ margin: 1em 0em 1em 0em;
     text-indent: 0.01px; /* Remove seta padrão do FireFox */      
     text-overflow: "";  /* Remove seta padrão do FireFox */             
 }
-    select::-ms-expand {
+
+select::-ms-expand {
         display: none;
-    } /* Remove seta padrão do IE*/ 
+        /* Remove seta padrão do IE*/
+}  
 
 .Pais-e-Estado {
     display: flex;
