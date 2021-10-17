@@ -87,7 +87,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 1em 5em 5em 7em;
+    margin: 3em 5em 5em 7em;
 }
 
 .lusett {
@@ -210,10 +210,6 @@ select {
         margin-bottom: 0.8em;
     }
 
-    .decisoes-botoes {
-        margin-top: 1em;
-    }
-
     button {
         background-color: rgba(255, 255, 255, 0);
         border-color: rgba(255, 255, 255, 0);
@@ -231,5 +227,5 @@ select {
     .decisoes-botoes {
         display: flex;
         flex-direction: row;
-        margin-top: 2.5em;
+        margin-top: 3.3em;
     }
