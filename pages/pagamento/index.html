@@ -10,7 +10,7 @@
 <body>
     <div class="Container">
         <div class="quad1">
-            <div>LUSETT</div>
+            <div class="lusett">LUSETT</div>
             <div class="etapas">
                 <div class="etapa-azul">Carrinho ></div>
                 <div>Informações ></div>
@@ -18,116 +18,125 @@
                 <div>Pagamento</div>
             </div>
             <div class="formulario">
-                <div>Informações de Contato</div>
+                <div class="subtitulo">Informações de Contato</div>
 
-                <input type="text" name="name" id="name" placeholder="E-mail">
+                <input class="Email" type="text" name="name" id="name" placeholder="E-mail">
                 <form name="Enviar-novidades">
-                    <input type="checkbox" name="opcao" id="opcao" value="01"><label for="opcao">Enviar novidades e ofertas para mim por e-mail</label>
+                    <input class="boxestilo" type="checkbox" name="opcao" id="opcao" value="01"><label for="opcao">Enviar novidades e ofertas para mim por e-mail</label>
                 </form>
 
-                <div>Endereço para Entrega</div>
+                <div class="subtitulo">Endereço para Entrega</div>
                 <div class="Nome-e-Sobrenome">
                     <input type="text" name="name" id="name" placeholder="Nome">
                     <input type="text" name="name" id="name" placeholder="Sobrenome">
                 </div>
                 <div class="Telefone-e-CPF">
-                    <input type="text" name="name" id="name" placeholder="CPF ou CNPJ">
-                    <input type="text" name="name" id="name" placeholder="Telefone">
+                    <input class="conjuntos" type="text" name="name" id="name" placeholder="CPF ou CNPJ">
+                    <input class="conjuntos" type="text" name="name" id="name" placeholder="Telefone">
                 </div>
 
-                <input type="text" name="name" id="name" placeholder="CEP">
-                <input type="text" name="name" id="name" placeholder="Endereço">
+                <input class="CEP" type="text" name="name" id="name" placeholder="CEP">
+                <input class="Endereco" type="text" name="name" id="name" placeholder="Endereço">
 
                 <div class="Bairro-e-Num">
-                    <input type="text" name="name" id="name" placeholder="Bairro">
-                    <input type="text" name="name" id="name" placeholder="Nº">
+                    <input class="conjuntos" type="text" name="name" id="name" placeholder="Bairro">
+                    <input class="conjuntos" type="text" name="name" id="name" placeholder="Nº">
                 </div>
                 
-                <input type="text" name="name" id="name" placeholder="Complemento">
-                <input type="text" name="name" id="name" placeholder="Cidade">
+                <input class="Complemento" type="text" name="name" id="name" placeholder="Complemento">
+                <input class="Cidade" type="text" name="name" id="name" placeholder="Cidade">
                 <div class="Pais-e-Estado">
-                    <select name="name" id="name" aria-placeholder="Pais">
-                        <option value="Brasil"></option>
-                    </select>
-                    <select name="name" id="name" aria-placeholder="Estado">
-                        <option value="Acre"></option>
-                        <option value="Alagoas"></option>
-                        <option value="Amapá"></option>
-                        <option value="Amazonas"></option>
-                        <option value="Bahia"></option>
-                        <option value="Ceará"></option>
-                        <option value="Distrito Federal"></option>
-                        <option value="Espírito Santo"></option>
-                        <option value="Goiás"></option>
-                        <option value="Maranhão"></option>
-                        <option value="Mato Grosso"></option>
-                        <option value="Mato Grosso do Sul"></option>
-                        <option value="Minas Gerais"></option>
-                        <option value="Pará"></option>
-                        <option value="Paraíba"></option>
-                        <option value="Paraná"></option>
-                        <option value="Pernambuco"></option>
-                        <option value="Piauí"></option>
-                        <option value="Rio de Janeiro"></option>
-                        <option value="Rio Grande do Norte"></option>
-                        <option value="Rio Grande do Sul"></option>
-                        <option value="Rondônia"></option>
-                        <option value="Roraima"></option>
-                        <option value="Santa Catarina"></option>
-                        <option value="São Paulo"></option>
-                        <option value="Sergipe"></option>
-                        <option value="Tocantis"></option>
-                    </select>
+                    <div class="div-select">
+                        <select required>
+                            <option value="" disabled selected>Pais...</option>
+                            <option value="Brasil">Brasil</option>
+                        </select>
+                    </div>
+                    <div class="div-select">
+                        <select required>
+                            <option value="estado" disabled selected>Estado...</option>
+                            <option value="Acre">Acre</option>
+                            <option value="Alagoas">Alagoas</option>
+                            <option value="Amapá">Amapá</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Bahia">Bahia</option>
+                            <option value="Ceará">Ceará</option>
+                            <option value="Distrito Federal">Distrito Federal</option>
+                            <option value="Espírito Santo">Espírito Santo</option>
+                            <option value="Goiás">Goiás</option>
+                            <option value="Maranhão">Maranhão</option>
+                            <option value="Mato Grosso">Mato Grosso</option>
+                            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                            <option value="Minas Gerais">Minas Gerais</option>
+                            <option value="Pará">Pará</option>
+                            <option value="Paraíba">Paraíba</option>
+                            <option value="Paraná">Paraná</option>
+                            <option value="Pernambuco">Pernambuco</option>
+                            <option value="Piauí">Piauí</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                            <option value="Rondônia">Rondônia</option>
+                            <option value="Roraima">Roraima</option>
+                            <option value="Santa Catarina">Santa Catarina</option>
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Sergipe">Sergipe</option>
+                            <option value="Tocantis">Tocantis</option>
+                        </select>
+                    </div>
                 </div>
 
-                <div class="salvar-informações">
-                        <input type="checkbox" name="name" id="name">
-                        <div>Salvar minhas informações para a proxíma vez</div>
-                </div>
+                <form name="salvar-informações">
+                    <input class="boxestilo" type="checkbox" name="opcao" id="check" value="01"><label for="check">Salvar minhas informações para a proxíma vez</label>
+                </form>
                 
                 <div class="decisoes-botoes">
-                        <button>Continuar com o frete</button>
-                        <button>Voltar para o frete</button>
+                    <div class="botao-continuar">    
+                        <button class="continuar">Continuar com o frete</button>
+                    </div> 
+                        <button class="voltar">Voltar para o frete</button>
                 </div>
                 </div>
-            </div>
+        </div>
     
         <div class="quad2">
-            <div class="area-detalhes">
-                <div class="foto-roupa"><img src="" alt="foto-roupa"></div>
-                <div class="detalhes-produto">
-                    <div>JAQUETA SARJA VERSE LIMITED WARZONE BEGE</div>
-                    <div>P</div>
+            <div class="div-quad2">
+                <div class="area-detalhes">
+                    <div class="foto-roupa"><img src="../../assets/images/jaqueta-sarja.jpg" alt="foto-roupa"></div>
+                    <div class="detalhes-produto">
+                        <div class="nome-jaqueta">JAQUETA SARJA VERSE LIMITED WARZONE BEGE</div>
+                        <div>P</div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="linha-separacao"><img src="" alt="linha-separacao"></div>
+                <div class="linha-separacao"><img src="../../assets/images/linha-separacao.jpg" alt="linha-separacao"></div>
 
-            <div class="area-desconto">
-                <input type="text" name="name" id="name" placeholder="Código de desconto">
-                <button type="submit">Aplicar</button>
-            </div>
+                <div class="area-desconto">
+                    <input type="text" name="name" id="name" placeholder="Código de desconto">
+                    <button type="submit">Aplicar</button>
+                </div>
 
-            <div class="linha-separacao2"><img src="" alt="linha-separacao2"></div>
+                <div class="linha-separacao2"><img src="../../assets/images/linha-separacao.jpg" alt="linha-separacao2"></div>
 
-            <div class="Subtotal">
-                <div>Subtotal</div>
-                <div>R$ 199,98</div>
-            </div>
-            <div class="Frete">
-                <div>Frete</div>
-                <div>R$ 0,00</div>
-            </div>
-            <div class="Desconto">
-                <div>Desconto</div>
-                <div>R$ 0,00</div>
-            </div>
+                <div class="Subtotal">
+                    <div class="margin">Subtotal</div>
+                    <div class="margin">R$ 199,98</div>
+                </div>
+                <div class="Frete">
+                    <div class="margin">Frete</div>
+                    <div class="margin">R$ 0,00</div>
+                </div>
+                <div class="Desconto">
+                    <div>Desconto</div>
+                    <div>R$ 0,00</div>
+                </div>
 
-            <div class="linha-separacao3"><img src="" alt="linha-separacao3"></div>
+                <div class="linha-separacao3"><img src="../../assets/images/linha-separacao.jpg" alt="linha-separacao3"></div>
 
-            <div class="Total">
-                <div>Total</div>
-                <div>R$ 199,98</div>
+                <div class="Total">
+                    <div>Total</div>
+                    <div>R$ 199,98</div>
+                </div>
             </div>
         </div>
     </div>
